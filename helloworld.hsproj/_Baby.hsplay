@@ -1,0 +1,48 @@
+-- Haskell Playground 1.0
+doubleMe 5
+
+doubleUs 4 9
+
+doubleSmallerNumber 40
+
+let lostNumbers = [4,8,15,16,23,42]
+let foundNumbers = [1,2,3]
+addToList foundNumbers lostNumbers
+
+addToList ['p','e'] ['p','a']
+
+stringWithSpace "Hello" "World"
+
+appendBefore 'A' " LLAMA"
+
+1:2:3:[]
+
+getElementFromList 3 lostNumbers
+getElementFromList 5 "edison"
+
+length "hello"
+
+null [1,2,3]
+
+null []
+
+reverse "test"
+
+head lostNumbers
+tail lostNumbers
+last lostNumbers
+init lostNumbers
+
+take 2 lostNumbers
+drop 2 lostNumbers
+
+maximum lostNumbers
+minimum lostNumbers
+
+sum lostNumbers
+product lostNumbers
+
+checkIfExists 'i' "edison"
+checkIfExists 'y' "edison"
+
+elem 4 lostNumbers
